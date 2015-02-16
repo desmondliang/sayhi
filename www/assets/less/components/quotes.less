@@ -1,0 +1,28 @@
+@import "../base/variables";
+
+.component-quote{
+  .quote{
+	font-size: @font-size-h2;
+	color: @brand-accent-gray-light;
+
+	&:before, &:after{
+	  Content: '"';
+	}
+  }
+
+  .credit{
+	font-size: @font-size-h4;
+  }
+}
+
+@media (max-width: @screen-xs-min) {
+  .component-quote{
+	.quote{
+	  font-size: @font-size-h4;
+	}
+
+	.credit{
+	  font-size: @font-size-h5;
+	}
+  }
+}

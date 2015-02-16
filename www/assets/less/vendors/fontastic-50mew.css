@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "50mew";
+    src:url("../../fonts/50mew.eot");
+    src:url("../../fonts/50mew.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/50mew.woff") format("woff"),
+    url("../../fonts/50mew.ttf") format("truetype"),
+    url("../../fonts/50mew.svg#50mew") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+[data-icon]:before {
+    font-family: "50mew" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "50mew" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-summit:before {
+    content: "a";
+}
+.icon-comment:before {
+    content: "b";
+}
+.icon-group:before {
+    content: "c";
+}
+.icon-gold-metal:before {
+    content: "d";
+}
+.icon-ladder:before {
+    content: "e";
+}
+.icon-chart:before {
+    content: "f";
+}
+.icon-eye:before {
+    content: "g";
+}
+.icon-hearted-hand:before {
+    content: "h";
+}
+.icon-clipboard:before {
+    content: "i";
+}
+.icon-lightblub:before {
+    content: "j";
+}
+.icon-questions:before {
+    content: "k";
+}
+.icon-computer-checked:before {
+    content: "l";
+}
+.icon-logo:before {
+    content: "m";
+}
+.icon-half-page:before {
+    content: "n";
+}
+.icon-podium:before {
+    content: "o";
+}

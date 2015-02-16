@@ -1,0 +1,53 @@
+@import "../base/variables";
+
+.component-tile-panel{
+  .tile-panel{
+	margin-bottom: @grid-gutter-width;
+
+	.inner{
+	  background-color: @brand-accent-gray-xlight;
+	  min-height: 260px;
+	  padding: 2em;
+	  border: 1px solid @brand-accent-gray-xlight;
+	  cursor: pointer;
+
+	  &:hover{
+		background-color: @brand-accent-gray-light;
+	  }
+
+	  .icon{
+		font-size: 6em;
+	  }
+	}
+
+	.tile{
+
+	}
+
+	.details{
+	 	display: none;
+	}
+  }
+}
+
+//mobile view
+@media (max-width: @screen-xs-min) {
+  .component-tile-panel{
+	.tile-panel{
+	  margin: @grid-gutter-width / 2;
+
+	  .inner{
+		min-height: 0px;
+		padding: 1em;
+
+		.icon{
+		  font-size: 4em;
+		}
+
+		.tile{
+		  text-align: left;
+		}
+	  }
+	}
+  }
+}

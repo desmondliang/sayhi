@@ -1,0 +1,30 @@
+// Base
+@import 'base/overrides';
+@import 'base/typography';
+@import 'base/background';
+@import 'base/spacing';
+
+//Components
+@import 'components/header';
+@import 'components/content';
+@import 'components/footer';
+
+
+//validation
+.parsley-error{
+  background-color: @brand-danger;
+  color: white;
+}
+
+ul.parsley-errors-list{
+  padding: 0;
+
+  li{
+	list-style: none;
+	color: @brand-danger;
+  }
+}
+
+.admin{
+
+}
